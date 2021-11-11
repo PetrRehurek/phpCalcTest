@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, blue, dodgerblue);
+    font-family: "Monotype Corsiva";
+}
+.main {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    padding: 0.5rem;
+    margin: auto;
+    list-style: none;
+    outline-style: ridge;
+    width: fit-content;
+}
+input {
+    padding: 1rem 2rem;
+    font: 2rem black ;
+    font-family: "Cambria Math";
+    margin: 0.3rem;
+    width: 20vw;
+    outline-style: ridge;
+}
+input:hover {
+    background: cornflowerblue;
+}
+.display{
+    grid-column-end: span 4;
+    height: 4rem;
+    outline-style: groove;
+    width: 85vw;
+    margin: 0.2rem;
+    background: darkblue;
+    padding: 0.9rem;
+    color:white;
+}
+input[name="equal"]{background: blue; color: white;}
+.operator{background: lightslategrey;}
+.operator:hover{background: gray;}
